@@ -1,5 +1,7 @@
 <script>
    import Header from "../components/main/Header.svelte";
+   import statE from "../state.svelte.js";
+   statE.query = "";
 
    let captchaInput = $state("");
    let invalidCaptcha = $state(false);
