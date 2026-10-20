@@ -33,6 +33,7 @@ export default {
 
    set query(v) {
       _query = v;
+      _page = 1;
       fetchData();
    },
    get query() {
